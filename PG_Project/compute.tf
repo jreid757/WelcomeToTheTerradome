@@ -1,4 +1,4 @@
-# Define data source to fetch the latest Ubuntu AMI for Ubuntu 22.04 from AWS
+# Define data source to fetch the latest Ubuntu AMI for Ubuntu 24.04 from AWS
 data "aws_ami" "server_ami" {
   most_recent = true
 
